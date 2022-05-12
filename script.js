@@ -11,7 +11,7 @@ function syncReadFile(filename) {
 
 //Cares not about case
 const words = syncReadFile('dictionary.txt'); //gets an array of every english word
-const banned = ['i','k','m','q','v','w','x','y','s']; //characters that cannot be displayed on a 7 segment display
+const banned = ['i','k','m','q','v','w','x','s']; //characters that cannot be displayed on a 7 segment display
 let outputWord = ''; //initialize a value for the output
 
 for(let wordNum = 0; wordNum < words.length; wordNum++)
